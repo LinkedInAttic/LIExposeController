@@ -424,6 +424,8 @@ NSString * const DELETE_BUTTON_IMAGE = @"deleteBtn.png";
 }
 
 - (void)newViewController:(UIViewController *)viewController index:(NSUInteger)index {
+    viewController.exposeController = self;
+    
     // Real View
     viewController.view.frame = self.scrollView.bounds;
     viewController.view.autoresizingMask = ~UIViewAutoresizingNone;
@@ -529,7 +531,6 @@ NSString * const DELETE_BUTTON_IMAGE = @"deleteBtn.png";
 }
 
 - (void)addNewViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    viewController.exposeController = self;
     [self.viewControllers addObject:viewController];
     
     NSUInteger i = self.viewControllers.count - 1;
