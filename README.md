@@ -17,8 +17,8 @@ LIExposeController acts as a container view controller, much like UINavigationCo
 4. CoreGraphics
 
 ### Screenshots
-![Screen 1 Alt](LIExposeController/raw/master/Screenshots/screen1.png "Screen 1")
-![Screen 2 Alt](LIExposeController/raw/master/Screenshots/screen2.png "Screen 2")
+![Screen 1 Alt](https://raw.github.com/linkedin/LIExposeController/master/Screenshots/screen1.png "Screen 1")
+![Screen 2 Alt](https://raw.github.com/linkedin/LIExposeController/master/Screenshots/screen2.png "Screen 2")
 
 ## Authors
 * Sudeep Yegnashankaran \([LinkedIn](http://www.linkedin.com/in/sudeepy), [github](https://github.com/sudeepy)\)
